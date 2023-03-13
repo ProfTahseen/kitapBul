@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,6 +16,13 @@
 			<img id="navBarLogo" src="../images/logoTransparent.png" alt="">
 			<p id="navBarTitle">Kitap Bul</p>
 		</div>
+
+		<div style="display: flex; flex-direction: row; align-items: center;">
+			<div id="searchBar" style="display: flex; flex-direction: row; align-items: center;">
+				<img id="searchIcon" src="../images/searchIcon.png" alt="">
+				<input id="searchBarInput" type="text">
+			</div>
+		</div>
 		
 		<div style="display: flex; flex-direction: row-reverse; align-items: center;">
 			<img id="addBookButton" src="../images/addBookButton.png">
@@ -23,7 +30,7 @@
 		</div>
 	</nav>
 
-	<div id="contentContainer">
+	<div id="contentContainerBuy">
 
 			<div class="bookCardBuy">
 				<img class="bookCardImageBuy" src="../bookCovers/momo.jpg" alt="">
@@ -32,11 +39,25 @@
 					<p class="bookCardAuthorBuy">Yazar: Michael Ende</p>
 					<p class="bookCardPublisherBuy">Yayınevi: Pegasus</p>
 					<p class="bookCardTitleBuy">23₺</p>
+					<button class="buyButton">Satın Al</button>
 				</div>
 			</div>
 
 
 	</div>
+
+	<div id="contentContainerBuyInfo">
+
+		<h1 style="align-self: flex-start; margin-left: 10px; margin-bottom: 40px;">Kitap Hakkında</h1>
+
+		<span style="margin-left: 10px;"><strong>Zaman, yaşamın kendisidir.</strong> <strong>Ve yaşamın yeri yürektir.</strong><br>&nbsp;<br>Momo, büyük bir kentin tiyatro harabelerinde yaşayan küçük bir kızdır. Buldukları ya da kendisine hediye edilenler dışında hiçbir şeyi yoktur. Ancak olağanüstü bir yeteneği vardır: Momo, muhteşem bir dinleyicidir ve bunun için oldukça bol zamanı vardır.<br>Bir gün hayaletimsi topluluk “duman adamlar” ortaya çıkar. İnce hesaplı planlar kurup insanların zamanını çalarlar. Onları durduracak tek kişiyse Momo’dur.<br>Momo elinde bir çiçek, koltuğunun altında bir kaplumbağa ve gizemli Hora Usta’nın da yardımıyla koskoca duman adamlar ordusunun karşısında tek başına durur. Acaba Momo, zamanı çalan adamları tek başına alt edebilecek midir?<br>Toplumumuz ve günümüz insanının zaman algısı ve zamanı okuması üzerine bir masal olan&nbsp;<em>Momo</em>’yla&nbsp;Michael Ende, Alman Gençlik Edebiyatı Ödülü’ne layık görülmüştür. Pek çok kez sinemaya uyarlanan&nbsp;<em>Momo</em>, kırktan fazla dile çevrilmiş, tüm dünyada 7 milyonun üzerinde satılmıştır.<br>&nbsp;<br>&nbsp;<br>&nbsp;“Michael Ende’nin romanları uzun yıllardır ‘kült kitaplar’ arasında.”<br><strong><em>Stuttgarter Zeitung&nbsp;</em></strong><br>&nbsp;<br>“<em>Momo</em>, hem çocuklar hem de yetişkinler için bir masal niteliğinde.”<br><strong><em>Die Welt&nbsp;</em></strong><br>&nbsp;<br>“Michael Ende’nin hayal gücü ve fantazyalarla dolu bu masal-romanı dünya çapında bir başarıya ulaştı ve klasikleşti.”<br><strong><em>Buch aktuell</em></strong><br></span>
+	
+	</div>
+
+
+
+
+</div>
 
 </body>
 </html>
