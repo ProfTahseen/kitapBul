@@ -1,0 +1,111 @@
+
+
+body {
+	background-color: #21252b;
+
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#navBar {
+	width: 900px;
+	background-color: #383d46;
+	border-radius: 30px;
+	padding: 20px 45px 20px 25px;
+	margin: 50px auto;
+	margin-bottom: 30px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#navBarLogo {
+	width: 100px;
+	height: 100px;
+}
+
+#addBookButton {
+	width: 70px;
+	height: 70px;
+
+	transition: 0.2s;
+}
+
+#addBookButton:hover {
+	transform: scale(1.07);
+}
+
+#navBarTitle {
+	font-size: 50px;
+	font-weight: 600;
+	color: #fff;
+
+}
+
+#kitapSat {
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+
+	margin-right: 15px;
+}
+
+#contentContainer {
+	width: 900px;
+	background-color: #383d46;
+	border-radius: 30px;
+	padding: 45px 45px 20px 25px;
+	margin: auto;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	justify-items: center;
+}
+
+.bookCard {
+	width: 250px;
+	background-color: #757f92;
+	border-radius: 30px;
+	margin: auto;
+
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 25px;
+	
+	transition: 0.2s;
+}
+
+.bookCard:hover {
+	transform: scale(1.05);
+}
+
+.bookCardTitle {
+	font-size: 30px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.bookCardAuthor {
+	font-size: 17px;
+	font-weight: 100;
+	color: #fff;
+
+	font-style: italic;
+}
+
+.bookCardPublisher {
+	font-size: 15px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.bookCardImage {
+	width: 200px;
+	height: 325px;
+}
