@@ -1,5 +1,24 @@
 
 
+::-webkit-scrollbar-track
+{
+	
+	border-radius: 10px;
+	background-color: #383d46;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #383d46;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #757f92;
+}
+
 body {
 	background-color: #21252b;
 
@@ -85,6 +104,7 @@ body {
 	transform: scale(1.05);
 }
 
+
 .bookCardTitle {
 	font-size: 30px;
 	font-weight: 600;
@@ -108,4 +128,64 @@ body {
 .bookCardImage {
 	width: 200px;
 	height: 325px;
+
+	border-radius: 10px;
+}
+
+
+.bookCardBuy {
+	width: 750px;
+	background-color: #757f92;
+	border-radius: 30px;
+	margin: auto;
+
+	text-align: center;
+
+	padding-left: 25px;
+	padding-bottom: 25px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	padding-top: 25px;
+
+}
+
+.bookCardImageBuy {
+	width: 350px;
+	height: 569px;
+
+	margin-right: 100px;
+
+	border-radius: 30px;
+
+}
+
+.bookCardTitleBuy {
+	font-size: 30px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.bookCardAuthorBuy {
+	font-size: 17px;
+	font-weight: 100;
+	color: #fff;
+
+	font-style: italic;
+}
+
+.bookCardPublisherBuy {
+	font-size: 15px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.bookCardInfoBuy {
+	background-color: #383d46;
+	border-radius: 30px;
+
+	text-align: center;
+	padding: 25px;
 }
